@@ -1,0 +1,36 @@
+.header-container {
+    position: relative;
+    height: 120vh; /* Full viewport height */
+    background-image: url('./../../assets/images/business-header.png');
+    background-size: cover;
+    background-position: center;
+  }
+  .overlay {
+    position: absolute;
+    top: 30;
+    left: 0;
+    height: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  .container {
+    z-index: 2; /* Ensures content is above the overlay */
+  }
+  .btn-custom {
+    border-radius: 20px;
+    border: 1px solid transparent;
+  }
+
+  .btn-custom-white {
+    color: #E2074C;
+    background: white;
+    padding: 10px 30px;
+    margin-top: 10px;
+  }
+  margin {
+    margin: 20px !important;
+    margin-right: 20px;
+  }
+  
